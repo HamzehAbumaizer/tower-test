@@ -1,5 +1,6 @@
 ---
 - name: Installation
+  hosts: A_564dfb89-ab1c-14ef-0847-b99c69ad7a41
   tasks:
           - name: Install
             yum:
