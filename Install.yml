@@ -1,0 +1,8 @@
+---
+- name: Installation
+  hosts: 172.16.2.126
+  tasks:
+          - name: Install
+            yum:
+                 name: httpd
+                 state: present
